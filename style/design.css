@@ -155,10 +155,15 @@
     border:1px solid grey;
     height:256px;
     width:1280px;
+    background-color: #FFFFFF; 
+}
+.quote-sec{
+background-image: url('../assets/quote.png');
+    background-repeat: no-repeat;
 }
 .quoter{
     font-size: 20px;
-    font-weight:600px;
+    font-weight:800px;
 }
 /*news*/
 .news-tittle{
@@ -174,26 +179,33 @@
 .news{
     display:flex;
     justify-content:space-between;
+    align-content: center;
     width:1280px;
-    margin:10px;
+    margin:10px ;
     border:1px solid #FFFFFF ;
     border-radius: 24px;
     margin-top:50px;
     background-color:#f9f9f9;
+    gap:32px;
 }
 .news-img{
     height: 306px;
     width:408px;
     border-radius: 24px;
+    margin-top: 40px;
 }
 .news-heading{
     font-size: 32px;
     font-weight: bold;
+    color: #222;
 }
 .news-time .news-des{
     text-align: justify;
     font-size:16px;
     font-weight:400px ;
+    color:lightslategrey
+    padding:5px;
+    
 }
 .news-btn{
     background-color:#006A50 ;
@@ -203,7 +215,8 @@
     font-size: 18px;
     font-weight: 600px;
     border-radius: 8px;
-    margin-top:20px;
+    margin: top 15px;
+    margin-bottom: 15px;
     cursor: pointer;
 }
 .news-btn:hover{
@@ -217,6 +230,8 @@
     text-align: center;
     border:1px solid #f9f9f9 ;
     background-color:#f9f9f9;
+    height:464px;
+    width:1280px;
 }
 .donate-description{
     margin-top:15px;
@@ -233,12 +248,31 @@
     font-weight: bold;
     text-align:center;
 }
+.donate-subtitle{
+    background-color: lightgray;
+    border:1px solid lightgray;
+    border-radius: 16px;
+    height:128px;
+    width:252px;
+    text-align: center;
+    padding-top:50px;
+}
+.donate-subtitle:hover{
+    background-color: #5490F5;
+}
+#amount{
+    text-align: center;
+}
+form{
+    margin-bottom:30px;
+}
 input{
     margin-top:15px;
     height: 64px;
     width: 1032px;
     font-size:20px;
     font-weight:400px;
+    padding-left:50px;
 }
 /*subscription-style*/
 .subscription{
@@ -249,11 +283,13 @@ input{
     height:395px;
     width:1280px;
     margin: 10px;
-    margin-top:15px;
+    margin-top:300px;
 }
 .subscribe{
     margin-top: 15px;
     display:flex;
+    justify-content:none;
+    align-items: center;
     padding-left:40px;
 }
 /*footer style*/
