@@ -123,10 +123,12 @@
 .v-head{
     font-size: 20px;
     font-weight: bold;
+    color: #222;
 }
 .v-des{
     font-size:18px;
-    font-weight:400px ;
+    font-weight:300px ;
+    color: #222;
 }
 .v-btn{
  margin-top:5px;
@@ -153,13 +155,14 @@
 .quote-sec{
     text-align: justify;
     border:1px solid grey;
+    border-radius: 16px;
     height:256px;
     width:1280px;
     background-color: #FFFFFF; 
 }
-.quote-sec{
-background-image: url('../assets/quote.png');
-    background-repeat: no-repeat;
+.quote-img{
+  height: 64px;
+  width:64px;
 }
 .quoter{
     font-size: 20px;
@@ -237,10 +240,9 @@ background-image: url('../assets/quote.png');
     margin-top:15px;
     font-size:16px;
     font-weight:400px;  
-    margin-right:160 px;
+    margin-right:160px;
 }
 .amount-container{
-    margin-top:15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -255,7 +257,7 @@ background-image: url('../assets/quote.png');
     height:128px;
     width:252px;
     text-align: center;
-    padding-top:50px;
+    padding-top:70px;
 }
 .donate-subtitle:hover{
     background-color: #5490F5;
